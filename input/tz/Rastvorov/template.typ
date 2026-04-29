@@ -103,7 +103,7 @@
                 Студент группы #student.group
 
                 #un(13) / #student.name /
-    
+
                 "#un(3)" #un(15) #cfg.year г.
               ]
             ).join[#linebreak() #linebreak()]
@@ -205,14 +205,14 @@
         let changes_table = figure(
             table(
                 columns: (10mm,) + (15mm, ) * 4 + (20mm, ) * 2 + (auto, ) + (auto, ) * 2,
-                
+
                 rows: (auto, ) * 3 + (9.5mm, ) * 21,
 
                 table.cell(
                 colspan: 10,
                 align: horizon,
                 [Лист регистрации изменений]
-                ), 
+                ),
                 table.cell(
                 colspan: 5,
                 align: horizon,
@@ -293,7 +293,7 @@
             #grid(
                 columns: (1fr),
                 row-gutter: 1fr,
-                list_name, 
+                list_name,
                 changes_table,
             )
         ]
@@ -345,7 +345,7 @@
             ]
         )
 
-        
+
 
         set par(
             first-line-indent: 2em,
@@ -386,7 +386,7 @@
 
             block(inset: (left: 1em))[#counter(heading).display() #h.body]
         }
-        
+
         show heading.where(level: 3): h => {
             set text(weight: "bold", size: 12pt)
 

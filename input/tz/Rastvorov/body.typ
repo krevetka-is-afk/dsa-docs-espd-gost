@@ -261,7 +261,7 @@ API для администратора/ЦППРП:
     table(
         columns: (auto, auto, 9cm, auto),
         rows: (15mm, auto),
-        
+
         align: center + top,
         table.header(..column_names),
 
