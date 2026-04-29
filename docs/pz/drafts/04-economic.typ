@@ -65,7 +65,7 @@
       caption: [Сравнение функциональных характеристик с ближайшими аналогами],
       table(
           columns: (6cm,) + (2.2cm,) * column_names.len(),
-          rows: (2.4cm, 1.5cm),
+          rows: (2.9cm, 1.5cm),
           align: center + horizon,
           table.header(
               [Функция],

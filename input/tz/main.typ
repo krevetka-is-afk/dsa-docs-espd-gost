@@ -347,7 +347,7 @@ API для администратора/ЦППРП:
     caption: [Сравнение функциональных характеристик аналогов],
     table(
         columns: (5cm,) + (auto,) * column_names.len(),
-        rows: (2cm, 1.5cm),
+        rows: (2.9cm, 1.5cm),
         align: center + top,
         table.header(
             [Функции],
